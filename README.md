@@ -8,7 +8,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -73,9 +73,9 @@ Welcome to the definitive, SEO-optimized awesome list tracking the modern ecosys
 
 ## 💻 Open-Source GitHub Projects
 
-*Sorted descending by GitHub star count. Each badge links directly to the project's stargazers page.*
+*Sorted descending by GitHub Stars_Count. Each badge links directly to the project's stargazers page.*
 
-| 📦 Project & Repository | ⭐ Stars | 📜 License / Tech Stack | 🔓 Free Tier / Self-Hosted Limit | 📝 Description |
+| 📦 Project & Repository | ⭐ GitHub_Stars | 📜 License / Tech Stack | 🔓 Free Tier / Self-Hosted Limit | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[ManimGL (`3b1b/manim`)](https://github.com/3b1b/manim)** | [![Stars](https://img.shields.io/github/stars/3b1b/manim?style=social&color=white)](https://github.com/3b1b/manim/stargazers) | **MIT** <br> `Python` `OpenGL` | **100% Free Forever** (Unlimited local GPU-accelerated video rendering) | Grant Sanderson's original interactive OpenGL-accelerated animation engine powering 3Blue1Brown's mathematical video series. |
 | **[Remotion (`remotion-dev/remotion`)](https://github.com/remotion-dev/remotion)** | [![Stars](https://img.shields.io/github/stars/remotion-dev/remotion?style=social&color=white)](https://github.com/remotion-dev/remotion/stargazers) | **Custom Open-Source** <br> `React` `TypeScript` | **100% Free Forever for Individuals & Non-Profits** (Unlimited programmatic video rendering) | Create real MP4/WebM videos programmatically using React components, web CSS/Canvas animations, and deterministic audio-video timelines. |
@@ -136,7 +136,7 @@ Requirements:
 2. 🌿 Create a new branch (`git checkout -b add-my-animation-tool`).
 3. 📋 Follow the established formatting conventions:
    - For SaaS products: include verified, specific pricing tiers, free-tier limits, and company scale metrics.
-   - For Open-Source projects: include the GitHub social star badge linking to the repository's stargazers page and ensure entries remain sorted by star count (descending).
+   - For Open-Source projects: include the GitHub social Stars_Badge linking to the repository's stargazers page and ensure entries remain sorted by Stars_Count (descending).
 4. 🚀 Commit your changes and submit a Pull Request.
 
 ---
