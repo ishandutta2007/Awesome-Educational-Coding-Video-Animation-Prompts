@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070913" />
+      <stop offset="40%" stop-color="#0d1124" />
+      <stop offset="75%" stop-color="#141a38" />
+      <stop offset="100%" stop-color="#090c1a" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="cyan-glow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e223d" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#121528" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#252c52" stroke-width="0.75" stroke-opacity="0.4" />
+      <circle cx="40" cy="40" r="1.5" fill="#4f598c" fill-opacity="0.3" />
+    </pattern>
+
+    <!-- Filters for Glow -->
+    <filter id="glow-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+    </filter>
+    <filter id="light-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatOrb1 {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(60px, 30px) scale(1.15); }
+    }
+    @keyframes floatOrb2 {
+      0%, 100% { transform: translate(0px, 0px) scale(1.1); }
+      50% { transform: translate(-50px, -25px) scale(0.9); }
+    }
+    @keyframes pulseCode {
+      0%, 100% { stroke-dashoffset: 0; opacity: 0.9; }
+      50% { stroke-dashoffset: 60; opacity: 0.4; }
+    }
+    @keyframes pillSlide {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes playPulse {
+      0%, 100% { transform: scale(1); filter: drop-shadow(0 0 8px #a855f7); }
+      50% { transform: scale(1.08); filter: drop-shadow(0 0 20px #ec4899); }
+    }
+    .orb-1 { animation: floatOrb1 14s ease-in-out infinite; }
+    .orb-2 { animation: floatOrb2 16s ease-in-out infinite; }
+    .code-line { stroke-dasharray: 240; animation: pulseCode 5s linear infinite; }
+    .floating-pill { animation: pillSlide 6s ease-in-out infinite; }
+    .floating-pill-delay { animation: pillSlide 7s ease-in-out infinite 1.5s; }
+    .play-icon { transform-origin: 1040px 110px; animation: playPulse 4s ease-in-out infinite; }
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; letter-spacing: -0.5px; }
+    .sub-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; }
+    .mono-text { font-family: 'SF Pro Display', Consolas, Monaco, 'Andale Mono', monospace; }
+  </style>
+
+  <!-- Deep Background -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" />
+
+  <!-- Animated Glowing Nebulas in Background -->
+  <g class="orb-1" opacity="0.45">
+    <circle cx="220" cy="110" r="160" fill="#6366f1" filter="url(#glow-blur)" />
+    <circle cx="980" cy="300" r="140" fill="#ec4899" filter="url(#glow-blur)" />
+  </g>
+  <g class="orb-2" opacity="0.35">
+    <circle cx="850" cy="90" r="150" fill="#06b6d4" filter="url(#glow-blur)" />
+    <circle cx="100" cy="340" r="120" fill="#8b5cf6" filter="url(#glow-blur)" />
+  </g>
+
+  <!-- Background Grid -->
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Dynamic Animated Decorative Graph/Curve in Middle Layer -->
+  <g opacity="0.55">
+    <path class="code-line" d="M 60,330 C 240,240 420,380 600,290 C 780,200 960,360 1140,280" fill="none" stroke="url(#primary-glow)" stroke-width="3" />
+    <path class="code-line" d="M 60,350 C 260,390 440,270 640,340 C 840,410 1000,290 1140,310" fill="none" stroke="url(#cyan-glow)" stroke-width="2" stroke-opacity="0.6" />
+  </g>
+
+  <!-- Animated Floating Accent Pills / Tags (Positioned away from title) -->
+  <g class="floating-pill" transform="translate(760, 42)">
+    <rect width="165" height="34" rx="17" fill="url(#card-grad)" stroke="#6366f1" stroke-width="1.2" />
+    <circle cx="20" cy="17" r="5" fill="#38bdf8" />
+    <text x="36" y="22" fill="#e2e8f0" font-size="12" class="mono-text" font-weight="600">🎬 Video As Code</text>
+  </g>
+
+  <g class="floating-pill-delay" transform="translate(945, 42)">
+    <rect width="175" height="34" rx="17" fill="url(#card-grad)" stroke="#a855f7" stroke-width="1.2" />
+    <circle cx="20" cy="17" r="5" fill="#ec4899" />
+    <text x="36" y="22" fill="#e2e8f0" font-size="12" class="mono-text" font-weight="600">✨ Manim &amp; Motion</text>
+  </g>
+
+  <g class="floating-pill" transform="translate(850, 345)">
+    <rect width="210" height="34" rx="17" fill="url(#card-grad)" stroke="#06b6d4" stroke-width="1.2" />
+    <circle cx="20" cy="17" r="5" fill="#10b981" />
+    <text x="36" y="22" fill="#e2e8f0" font-size="12" class="mono-text" font-weight="600">🤖 AI Prompt Engineering</text>
+  </g>
+
+  <!-- Video Camera / Play Visual Symbol (Right Side Accent) -->
+  <g class="play-icon">
+    <circle cx="1040" cy="110" r="38" fill="url(#primary-glow)" opacity="0.25" />
+    <circle cx="1040" cy="110" r="28" fill="#1e1b4b" stroke="url(#primary-glow)" stroke-width="2" />
+    <polygon points="1034,98 1052,110 1034,122" fill="#f8fafc" />
+  </g>
+
+  <!-- Main Content Box (Glassmorphic Backdrop for Foreground Legibility) -->
+  <rect x="70" y="55" width="670" height="300" rx="20" fill="#0b0f1f" fill-opacity="0.65" stroke="#232946" stroke-width="1" />
+
+  <!-- Badge / Pill on top of Title -->
+  <g transform="translate(100, 85)">
+    <rect width="250" height="28" rx="14" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" />
+    <text x="18" y="19" fill="#a5b4fc" font-size="11.5" class="mono-text" font-weight="700" letter-spacing="1">✨ CURATED AWESOME LIST 2026</text>
+  </g>
+
+  <!-- Main Title (Guaranteed Foreground) -->
+  <g transform="translate(100, 160)">
+    <text x="0" y="0" fill="#ffffff" font-size="38" class="title-text">
+      Educational Coding &amp;
+    </text>
+    <text x="0" y="48" fill="url(#primary-glow)" font-size="38" class="title-text">
+      Video Animation Prompts
+    </text>
+  </g>
+
+  <!-- Subtitle (Guaranteed Foreground) -->
+  <g transform="translate(100, 250)">
+    <text x="0" y="0" fill="#94a3b8" font-size="15" class="sub-text">
+      Programmatic Math Animations (Manim, Motion Canvas, Remotion),
+    </text>
+    <text x="0" y="24" fill="#cbd5e1" font-size="14.5" class="sub-text">
+      LLM Animation Prompting, Reactive Sandboxes &amp; WebAssembly STEM Labs.
+    </text>
+  </g>
+
+  <!-- Bottom Pills Inside Banner Box -->
+  <g transform="translate(100, 310)">
+    <rect x="0" y="0" width="85" height="24" rx="6" fill="#1e293b" />
+    <text x="12" y="16" fill="#38bdf8" font-size="11" class="mono-text">🐍 Python</text>
+
+    <rect x="95" y="0" width="105" height="24" rx="6" fill="#1e293b" />
+    <text x="106" y="16" fill="#a78bfa" font-size="11" class="mono-text">📘 TypeScript</text>
+
+    <rect x="210" y="0" width="85" height="24" rx="6" fill="#1e293b" />
+    <text x="221" y="16" fill="#f472b6" font-size="11" class="mono-text">⚛️ React</text>
+
+    <rect x="305" y="0" width="100" height="24" rx="6" fill="#1e293b" />
+    <text x="316" y="16" fill="#34d399" font-size="11" class="mono-text">⚡ Wasm/Pyodide</text>
+
+    <rect x="415" y="0" width="105" height="24" rx="6" fill="#1e293b" />
+    <text x="426" y="16" fill="#fbbf24" font-size="11" class="mono-text">🤖 AI Prompts</text>
+  </g>
+</svg>

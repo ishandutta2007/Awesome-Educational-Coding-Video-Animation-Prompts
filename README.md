@@ -1,31 +1,33 @@
-# Awesome-Educational-Coding-Video-Animation-Prompts
+# 🎬 Awesome-Educational-Coding-Video-Animation-Prompts
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Top Educational Coding & Video Animation Prompts" width="100%" />
+  <img src="./assets/banner.svg" alt="Top Educational Coding & Video Animation Prompts Banner" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts?style=social" alt="GitHub stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts?style=social" alt="GitHub forks" /></a>
-  <a href="https://github.com/ishandutta2007"><img src="https://img.shields.io/github/followers/ishandutta2007?label=Follow%20%40ishandutta2007&style=social" alt="GitHub followers" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
 
-# 🎬 Top Educational Coding & Video Animation Prompts
+# 🚀 🎬 Top Educational Coding & Video Animation Prompts
 
-**A Curated Directory of SaaS Platforms & Open-Source Projects for Visual Code & Math Explanations**  
+**✨ A Curated Directory of SaaS Platforms & Open-Source Projects for Visual Code & Math Explanations ✨**  
 *Focused on Programmatic Math/Code Animation Engines, LLM Animation Prompting, Interactive Browser Coding Sandboxes & Reactive STEM Visualizations.*  
 
-**Last updated: November 2026**
+📅 **Last updated: November 2026**
 
 Welcome to the definitive, SEO-optimized awesome list tracking the modern ecosystem of **Educational Coding & Video Animation Prompts**. Whether you are an educator, a technical content creator, a researcher, or a software engineer producing 3Blue1Brown-style mathematical videos, this guide indexes the leading cloud SaaS platforms and open-source engines for:
 
-- **AI Prompt-to-Animation Workflows**: Structuring LLM prompts (Claude, GPT-4o, Gemini) to generate validated code for Manim, Motion Canvas, and Remotion.
-- **Programmatic Video & Animation Frameworks**: Rendering mathematically precise 2D/3D visualizations, procedural graphics, and timeline-driven video through pure code.
-- **Interactive In-Browser Sandboxes**: Frictionless WebAssembly and containerized runtimes for visual computer science instruction without local software configuration.
+- 🤖 **AI Prompt-to-Animation Workflows**: Structuring LLM prompts (Claude, GPT-4o, Gemini) to generate validated code for Manim, Motion Canvas, and Remotion.
+- 📐 **Programmatic Video & Animation Frameworks**: Rendering mathematically precise 2D/3D visualizations, procedural graphics, and timeline-driven video through pure code.
+- 🧪 **Interactive In-Browser Sandboxes**: Frictionless WebAssembly and containerized runtimes for visual computer science instruction without local software configuration.
 
 ---
 
@@ -35,17 +37,18 @@ Welcome to the definitive, SEO-optimized awesome list tracking the modern ecosys
 - [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🎯 Recommended Animation & Coding Prompts](#-recommended-animation--coding-prompts)
+- [📈 Star History](#-star-history)
 - [🛠️ How to Contribute](#️-how-to-contribute)
-- [⚠️ Disclaimer](#️-disclaimer)
 - [💖 Support & Thank You](#-support--thank-you)
+- [⚠️ Disclaimer](#️-disclaimer)
 
 ---
 
 ## 📊 Sector Overview & Market Dynamics
 
-The global EdTech and interactive STEM learning market is valued at approximately **$213B–$215B in 2026**, while the **Interactive Coding Platforms, Creative Code & AI Educational Media** segment accounts for roughly **$9.6B–$11.4B in 2026** (expanding at ~26%–35% CAGR).
+📈 The global EdTech and interactive STEM learning market is valued at approximately **$213B–$215B in 2026**, while the **Interactive Coding Platforms, Creative Code & AI Educational Media** segment accounts for roughly **$9.6B–$11.4B in 2026** (expanding at ~26%–35% CAGR).
 
-The sector is **moderately fragmented** across cloud IDEs, interactive STEM courses, and video-as-code studios—with developer cloud sandboxes exhibiting **winner-take-most consolidation** around Replit and CodePen, while programmatic math/code video generation is overwhelmingly led by open-source ecosystems like Manim, Motion Canvas, and Remotion.
+🧩 The sector is **moderately fragmented** across cloud IDEs, interactive STEM courses, and video-as-code studios—with developer cloud sandboxes exhibiting **winner-take-most consolidation** around Replit and CodePen, while programmatic math/code video generation is overwhelmingly led by open-source ecosystems like Manim, Motion Canvas, and Remotion.
 
 ---
 
@@ -53,18 +56,18 @@ The sector is **moderately fragmented** across cloud IDEs, interactive STEM cour
 
 *Sorted descending by company valuation / annual revenue scale.*
 
-| Platform | Description | Company Scale (Valuation / Revenue) | Starting Paid Tier | Free Tier / Trial Limit |
+| 🏢 Platform | 📝 Description | 💼 Company Scale (Valuation / Revenue) | 💳 Starting Paid Tier | 🎁 Free Tier / Trial Limit |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Replit](https://replit.com)** | Cloud-native browser IDE and AI coding agent platform enabling instant interactive coding environments, live classrooms, and visual app deployment. | **$1.16B+ Valuation** (~$100M+ est. ARR) | **$20/mo** billed annually ($25/mo monthly for Replit Core) | **Forever Free Starter Plan** (Up to 3 public apps, limited daily AI Agent credits, and shared vCPU/RAM sandboxes) |
-| **[Brilliant](https://brilliant.org)** | Interactive STEM learning platform featuring animated visual explanations and hands-on coding, logic, and math simulations. | **~$350M–$500M Est. Valuation** (~$50M+ est. ARR) | **$24.99/mo** (or **$13.49/mo** billed annually at $161.88/yr) | **Forever Free Preview** (Daily free interactive puzzles and first lessons of every STEM course; 7-day Premium trial) |
-| **[Codecademy (Skillsoft)](https://codecademy.com)** | Interactive browser-based coding curriculum combining live code editors, visual execution feedback, and AI-guided debugging. | **~$200M+ Segment Revenue** (Acquired by Skillsoft for ~$525M) | **$17.49/mo** billed annually ($209.88/yr Plus) or **$29.99/mo** Pro annual | **Forever Free Basic Plan** (Access to introductory coding chapters and basic interactive exercises; 7-day Pro/Plus trial) |
-| **[Khan Academy](https://khanacademy.org)** | Non-profit educational platform featuring live browser-based JavaScript/ProcessingJS drawing, animation, and SQL sandboxes alongside Khanmigo AI. | **$117.5M Annual Revenue** (FY2024–2025 501(c)(3) nonprofit filings) | **$4/mo** (or **$44/yr** for Khanmigo learner plan; $0 for coding sandboxes) | **Forever Free** (100% of interactive ProcessingJS animation sandboxes, CS courses, and mastery exercises free forever) |
-| **[Observable](https://observablehq.com)** | Collaborative cloud platform for reactive JavaScript notebooks, D3/Plot animated data visualizations, and interactive technical essays. | **~$50M–$80M Est. Valuation** (~$46M total VC funding) | **$22/editor/mo** for Starter team workspace (or $20/mo Pro individual legacy) | **Forever Free Public Tier** (Unlimited public reactive notebooks, D3/Plot visualizations, and community forks; capped private notebooks) |
-| **[CodePen](https://codepen.io)** | Social browser-based front-end coding playground for HTML, CSS, SVG, and Canvas educational animations with live instant previews. | **~$25M–$50M Est. Valuation** (~$5M–$10M est. ARR; profitable) | **$8/mo** billed annually ($96/yr Starter) or **$12/mo** Developer | **Forever Free Plan** (Unlimited public Pens, live browser previews, and 1 public Project with asset upload caps) |
-| **[Glitch (Fastly)](https://glitch.com)** | Browser-based full-stack web coding sandbox enabling instant remixing and live hosting of interactive educational web apps and animations. | **Part of Fastly** (Acquired by Fastly; ~$540M+ parent revenue) | **$8/mo** billed annually ($96/yr Glitch Pro) | **Forever Free Plan** (Unlimited public projects with 512 MB RAM, 200 MB disk, and 4,000 container hours/month) |
-| **[Scratch Cloud (MIT)](https://scratch.mit.edu)** | World's largest free block-based visual coding and interactive animation community created by the MIT Media Lab for learners of all ages. | **Non-Profit Academic Initiative** (MIT Media Lab / Scratch Foundation) | **$0 / Free** (100% grant & donation funded; no paid tier) | **100% Free Forever** (Unlimited cloud-hosted animated stories, games, sprite editors, and remixable community projects) |
-| **[Manim Community (Hosted / Colab)](https://manim.community)** | Community-maintained mathematical animation engine commonly run via hosted Google Colab or cloud notebook environments for zero-setup rendering. | **Community Open-Source Project** (501(c)(3) fiscal sponsorship via NumFOCUS) | **$0 / Free** ($9.99/mo optional via Google Colab Pro for faster GPUs) | **100% Free Forever** (Full Manim engine via free Google Colab T4 GPU/CPU runtimes or local installation) |
-| **[JupyterLite (Hosted Static Deployments)](https://jupyterlite.readthedocs.io)** | Zero-backend WebAssembly JupyterLab distribution hosted on GitHub Pages/ReadTheDocs for instant browser-based Python and interactive plotting. | **Project Jupyter Ecosystem** (NumFOCUS fiscally sponsored) | **$0 / Free** (Runs 100% client-side in the student's browser) | **100% Free Forever** (Unlimited browser-based Python/Pyodide notebooks, Matplotlib/Plotly animations, and static sharing) |
+| **[Replit](https://replit.com)** | 🌐 Cloud-native browser IDE and AI coding agent platform enabling instant interactive coding environments, live classrooms, and visual app deployment. | **$1.16B+ Valuation** (~$100M+ est. ARR) | **$20/mo** billed annually ($25/mo monthly for Replit Core) | **Forever Free Starter Plan** (Up to 3 public apps, limited daily AI Agent credits, and shared vCPU/RAM sandboxes) |
+| **[Brilliant](https://brilliant.org)** | 🧠 Interactive STEM learning platform featuring animated visual explanations and hands-on coding, logic, and math simulations. | **~$350M–$500M Est. Valuation** (~$50M+ est. ARR) | **$24.99/mo** (or **$13.49/mo** billed annually at $161.88/yr) | **Forever Free Preview** (Daily free interactive puzzles and first lessons of every STEM course; 7-day Premium trial) |
+| **[Codecademy (Skillsoft)](https://codecademy.com)** | 💻 Interactive browser-based coding curriculum combining live code editors, visual execution feedback, and AI-guided debugging. | **~$200M+ Segment Revenue** (Acquired by Skillsoft for ~$525M) | **$17.49/mo** billed annually ($209.88/yr Plus) or **$29.99/mo** Pro annual | **Forever Free Basic Plan** (Access to introductory coding chapters and basic interactive exercises; 7-day Pro/Plus trial) |
+| **[Khan Academy](https://khanacademy.org)** | 🎓 Non-profit educational platform featuring live browser-based JavaScript/ProcessingJS drawing, animation, and SQL sandboxes alongside Khanmigo AI. | **$117.5M Annual Revenue** (FY2024–2025 501(c)(3) nonprofit filings) | **$4/mo** (or **$44/yr** for Khanmigo learner plan; $0 for coding sandboxes) | **Forever Free** (100% of interactive ProcessingJS animation sandboxes, CS courses, and mastery exercises free forever) |
+| **[Observable](https://observablehq.com)** | 📊 Collaborative cloud platform for reactive JavaScript notebooks, D3/Plot animated data visualizations, and interactive technical essays. | **~$50M–$80M Est. Valuation** (~$46M total VC funding) | **$22/editor/mo** for Starter team workspace (or $20/mo Pro individual legacy) | **Forever Free Public Tier** (Unlimited public reactive notebooks, D3/Plot visualizations, and community forks; capped private notebooks) |
+| **[CodePen](https://codepen.io)** | 🎨 Social browser-based front-end coding playground for HTML, CSS, SVG, and Canvas educational animations with live instant previews. | **~$25M–$50M Est. Valuation** (~$5M–$10M est. ARR; profitable) | **$8/mo** billed annually ($96/yr Starter) or **$12/mo** Developer | **Forever Free Plan** (Unlimited public Pens, live browser previews, and 1 public Project with asset upload caps) |
+| **[Glitch (Fastly)](https://glitch.com)** | ⚡ Browser-based full-stack web coding sandbox enabling instant remixing and live hosting of interactive educational web apps and animations. | **Part of Fastly** (Acquired by Fastly; ~$540M+ parent revenue) | **$8/mo** billed annually ($96/yr Glitch Pro) | **Forever Free Plan** (Unlimited public projects with 512 MB RAM, 200 MB disk, and 4,000 container hours/month) |
+| **[Scratch Cloud (MIT)](https://scratch.mit.edu)** | 🐱 World's largest free block-based visual coding and interactive animation community created by the MIT Media Lab for learners of all ages. | **Non-Profit Academic Initiative** (MIT Media Lab / Scratch Foundation) | **$0 / Free** (100% grant & donation funded; no paid tier) | **100% Free Forever** (Unlimited cloud-hosted animated stories, games, sprite editors, and remixable community projects) |
+| **[Manim Community (Hosted / Colab)](https://manim.community)** | 🎥 Community-maintained mathematical animation engine commonly run via hosted Google Colab or cloud notebook environments for zero-setup rendering. | **Community Open-Source Project** (501(c)(3) fiscal sponsorship via NumFOCUS) | **$0 / Free** ($9.99/mo optional via Google Colab Pro for faster GPUs) | **100% Free Forever** (Full Manim engine via free Google Colab T4 GPU/CPU runtimes or local installation) |
+| **[JupyterLite (Hosted Static Deployments)](https://jupyterlite.readthedocs.io)** | 🪐 Zero-backend WebAssembly JupyterLab distribution hosted on GitHub Pages/ReadTheDocs for instant browser-based Python and interactive plotting. | **Project Jupyter Ecosystem** (NumFOCUS fiscally sponsored) | **$0 / Free** (Runs 100% client-side in the student's browser) | **100% Free Forever** (Unlimited browser-based Python/Pyodide notebooks, Matplotlib/Plotly animations, and static sharing) |
 
 ---
 
@@ -72,7 +75,7 @@ The sector is **moderately fragmented** across cloud IDEs, interactive STEM cour
 
 *Sorted descending by GitHub star count. Each badge links directly to the project's stargazers page.*
 
-| Project & Repository | Stars | License / Tech Stack | Free Tier / Self-Hosted Limit | Description |
+| 📦 Project & Repository | ⭐ Stars | 📜 License / Tech Stack | 🔓 Free Tier / Self-Hosted Limit | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[ManimGL (`3b1b/manim`)](https://github.com/3b1b/manim)** | [![Stars](https://img.shields.io/github/stars/3b1b/manim?style=social&color=white)](https://github.com/3b1b/manim/stargazers) | **MIT** <br> `Python` `OpenGL` | **100% Free Forever** (Unlimited local GPU-accelerated video rendering) | Grant Sanderson's original interactive OpenGL-accelerated animation engine powering 3Blue1Brown's mathematical video series. |
 | **[Remotion (`remotion-dev/remotion`)](https://github.com/remotion-dev/remotion)** | [![Stars](https://img.shields.io/github/stars/remotion-dev/remotion?style=social&color=white)](https://github.com/remotion-dev/remotion/stargazers) | **Custom Open-Source** <br> `React` `TypeScript` | **100% Free Forever for Individuals & Non-Profits** (Unlimited programmatic video rendering) | Create real MP4/WebM videos programmatically using React components, web CSS/Canvas animations, and deterministic audio-video timelines. |
@@ -94,7 +97,7 @@ The sector is **moderately fragmented** across cloud IDEs, interactive STEM cour
 
 Below are production-ready prompt templates for creating educational coding and mathematical animations using LLMs with **Manim** and **Motion Canvas**:
 
-### 1. Algorithm Visualization Prompt (Manim)
+### 1. 🧮 Algorithm Visualization Prompt (Manim)
 ```text
 Act as a mathematical and computer science animation expert using Manim Community edition.
 Write a clean, self-contained Python script defining a Scene class named `MergeSortExplainer`.
@@ -106,7 +109,7 @@ Requirements:
 5. Provide complete, executable code without placeholders.
 ```
 
-### 2. Frontend / Reactive State Animation Prompt (Motion Canvas)
+### 2. ⚡ Frontend / Reactive State Animation Prompt (Motion Canvas)
 ```text
 Act as a Motion Canvas and TypeScript animation specialist.
 Generate a complete Motion Canvas scene explaining how a reactive signal updates dependent UI nodes.
@@ -119,25 +122,37 @@ Requirements:
 
 ---
 
-## 🛠️ How to Contribute
+## 📈 Star History
 
-We welcome contributions from educators, developers, and creators! To submit an open-source project or SaaS platform:
-
-1. Fork this repository.
-2. Create a new branch (`git checkout -b add-my-animation-tool`).
-3. Follow the established formatting conventions:
-   - For SaaS products: include verified, specific pricing tiers, free-tier limits, and company scale metrics.
-   - For Open-Source projects: include the GitHub social star badge linking to the repository's stargazers page and ensure entries remain sorted by star count (descending).
-4. Commit your changes and submit a Pull Request.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Educational-Coding-Video-Animation-Prompts&type=date&legend=top-left)
 
 ---
 
-## ⚠️ Disclaimer
+## 🛠️ How to Contribute
 
-Company valuations, revenue estimates, and pricing tiers reflect publicly disclosed financial figures, press releases, and vendor pricing pages as of late 2026. Free tier quotas and subscription pricing are subject to change by their respective providers.
+🤝 We welcome contributions from educators, developers, and creators! To submit an open-source project or SaaS platform:
+
+1. 🍴 Fork this repository.
+2. 🌿 Create a new branch (`git checkout -b add-my-animation-tool`).
+3. 📋 Follow the established formatting conventions:
+   - For SaaS products: include verified, specific pricing tiers, free-tier limits, and company scale metrics.
+   - For Open-Source projects: include the GitHub social star badge linking to the repository's stargazers page and ensure entries remain sorted by star count (descending).
+4. 🚀 Commit your changes and submit a Pull Request.
 
 ---
 
 ## 💖 Support & Thank You
 
-If you find this curated collection useful for your educational content, STEM research, or video generation pipelines, please **star this repository** ⭐ to help other educators and developers discover it!
+🙏 **A big thank you to all the educators, open-source developers, and content creators** who push the boundaries of visual coding education, mathematical animations, and interactive learning!
+
+If you find this curated collection helpful:
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork it** to customize your personal animation workflows!
+- 📢 **Share it** on social media, Discord, or with your team!
+- ☕ **Support the project / Buy a coffee**: Visit the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) to help support ongoing maintenance and curation!
+
+---
+
+## ⚠️ Disclaimer
+
+ℹ️ Company valuations, revenue estimates, and pricing tiers reflect publicly disclosed financial figures, press releases, and vendor pricing pages as of late 2026. Free tier quotas and subscription pricing are subject to change by their respective providers.
